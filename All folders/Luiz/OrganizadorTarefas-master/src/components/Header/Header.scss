@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.header{
+    background: #0C70F2;
+    height: 70px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+
+.header {
+    button {
+    font-size: 25px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 600;
+    border: 10px;
+    padding: 10px;
+
+    color: white;
+    background: #0C70F2;
+    margin-left: 35px;
+    margin-top: 12px;
+    }
+    
+    button:focus {
+    background: #FFFFFF;
+    color: #0C70F2;
+    border-radius: 10px 10px 0px 0px;
+    }
+}

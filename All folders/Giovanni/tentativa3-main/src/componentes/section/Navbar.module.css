@@ -1,0 +1,25 @@
+.Navbar{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none
+   
+}
+
+.Navbar2{
+   list-style-type: none;
+   align-items: center;
+}
+
+.Navbar2 li{
+   display: inline;
+   margin:10px; 
+}
+.Navbar3{
+   list-style-type: none;
+   align-items: center;
+   margin-right: 50px;
+}
+.Navbar3 li{
+   display: inline;
+   margin:10px; 
+}

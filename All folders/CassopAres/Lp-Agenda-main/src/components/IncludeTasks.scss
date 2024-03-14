@@ -1,0 +1,24 @@
+@use "../Sass/variables" as *;
+
+.include{
+    display: flex; 
+    justify-content: center;
+   
+    input{
+         background-color: $main-background;
+         border: none;
+         width: 33em;
+         height: 2em;
+    }
+
+    button{
+        background-color: $main-background;
+        border: none;
+        margin-left: 1em;
+        font-size: 1.2em;
+        width: 4em;
+        height: 1.5em;
+        margin: 0;
+    }
+   
+}

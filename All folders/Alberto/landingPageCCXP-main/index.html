@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page CCXP </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="./media/logo.svg" alt="">
+    </header>
+
+    <!-- Body -->
+    <div class="container">
+
+        <div class="left">
+            <!-- Sessão Esquerda -->
+
+            <h1> REVIVA O ÉPICO </h1>
+            <h2> DE 01 A 04 DE DEZEMBRO </h2>
+            <p>
+                Você consegue sentir? É aquela sensação de<br>  
+                finalmente poder falar em voz alta: "estamos<br>  
+                em casa". Sim, em dezembro de 2022,<br>  
+                teremos a volta da CCXP física. Mas não será<br>  
+                qualquer CCXP, vai ser a maior de todos os<br>  
+                tempos. Prepare-se para visitar seus<br>  
+                universos favoritos, explorar o Artists' Valley,<br>  
+                se emocionar nos auditórios e encontrar<br> 
+                aventuras épicas a cada passo pelos nossos<br> 
+                corredores.
+            </p>
+        </div>
+
+        <div class="right">
+            <!-- Sessão Direita -->
+            <div id="countdown-timer" class="timer-container">
+                <div class="timer-item">
+                  <span class="timer" id="day">03</span>D
+                </div>
+                <div class="timer-item">
+                  <span class="timer" id="hour">01</span>H
+                </div>
+                <div class="timer-item">
+                  <span class="timer" id="minute">01</span>M
+                </div>
+                <div class="timer-item">
+                  <span class="timer" id="second">01</span>S
+                </div>
+              </div>
+            <h1>
+                PARA A MAIOR CCXP DE TODOS OS TEMPOS
+            </h1>
+            <video id="Arlequina" controls loop autoplay width="700px">
+                <source src="./media/Arlequina.mp4">
+           </video>
+        </div>
+    </div>
+    <div class="container">
+        <div class="ingressos">
+            <h1> AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE! </h1>
+            <img 
+                class="cards-ingressos"
+                src="./media/qui.svg" 
+                onclick="selectCard('#quinta')" 
+                onmouseover="highlightCard('#quinta')" 
+                onmouseout="highlightCard('#quinta')" 
+                id="quinta" 
+                alt=""
+            >
+            <img
+                class="cards-ingressos"
+                src="/media/sex.svg"  
+                onclick="selectCard('#sexta')" 
+                onmouseover="highlightCard('#sexta')" 
+                onmouseout="highlightCard('#sexta')" 
+                id="sexta" 
+                alt=""
+            >
+            <img 
+                class="cards-ingressos"
+                src="./media/sat.svg" 
+                onclick="selectCard('#sabado')" 
+                onmouseover="highlightCard('#sabado')" 
+                onmouseout="highlightCard('#sabado')" 
+                id="sabado" 
+                alt=""
+            >
+            <img 
+                class="cards-ingressos"
+                src="./media/sun.svg" 
+                onclick="selectCard('#domingo')" 
+                onmouseover="highlightCard('#domingo')" 
+                onmouseout="highlightCard('#domingo')" 
+                id="domingo" 
+                alt=""
+            >
+        </div>
+        <div class="button">
+            <input type="button" value="GARANTA O SEU" onclick="showSelectedCards()">
+        </div>
+    </div>
+    <script src="chronometer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';   
+}
+#logo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+#menusuperior{
+    background-image: url(imagens/backgroundsup.svg);
+    background-position: 10000px;
+    color: white;
+}
+#menudeinformação{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-right: 50px;
+}
+.icones{
+   margin: 50px 0px 50px 200px;
+}
+.tex{
+    padding-top: 60px;
+}
+#certificado{
+    padding-top: 5px;
+}
+
+#secaovideo{
+    display: grid; 
+    grid-auto-flow: column;
+    columns: auto;
+}
+#textosup{
+    color: #247BA0;
+}
+
+#video{
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#texto{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#carrosel{
+    background-color: #247BA0; 
+    color: #EAECE5;
+    padding: 50px;
+
+}
+#textocarrosel{
+    text-align: center; 
+    color: #EAECE5;
+
+}
+#cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+}
+#carrosel{
+    padding-top: 0px;
+}
+#carrosel1{
+    margin-right: 50px;
+}
+.seta{
+    margin-top: 65px;
+}

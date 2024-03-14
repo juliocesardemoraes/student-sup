@@ -1,0 +1,39 @@
+@use "../Sass/variables" as *;
+
+.header{
+    background: $header-background;
+     padding-bottom: 0.8em;
+     padding-top: 1em;
+     position: fixed;
+     width: 100%;
+     
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding-left: 2em;
+    }
+
+    li{
+        margin-right: 0.5em;
+        font-size: 1.4em;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0.6em;
+    }
+
+    a:hover{
+        color: $header-background;
+        border-top-left-radius:  10px;
+        border-top-right-radius:  10px;
+        background-color: aliceblue;
+    }
+
+
+} 
+    
+
+
