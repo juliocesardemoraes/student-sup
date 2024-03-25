@@ -1,9 +1,18 @@
 * {
-  background-color: black;
-  background-image: url(imagens/fundo-menusuperior.svg);
   color: aliceblue;
   margin: 0px;
   font-family: "inter";
+}
+
+html {
+  background: black;
+}
+
+.header {
+  background-image: url(imagens/fundo-menusuperior.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
 }
 
 #logo {
