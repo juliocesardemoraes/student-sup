@@ -1,0 +1,20 @@
+* {
+  background-color: black;
+  background-image: url(imagens/fundo-menusuperior.svg);
+  color: aliceblue;
+  margin: 0px;
+  font-family: "inter";
+}
+
+#logo {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#título-menusuperior {
+  margin-top: 75px;
+  margin-left: 150px;
+}
+#texto-menusuperior {
+  margin-top: 50px;
+  margin-left: 150px;
+}
